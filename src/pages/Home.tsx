@@ -6,7 +6,7 @@ import { Skills } from "./Skills";
 
 export const Home = () => {
   return (
-    <div className="h-screen">
+    <div className="h-full bg-[#F1F1F1]">
       <Nav about="about" skills="skills" project="project" contact="contact" />
       <section className="h-[100vh]  mt-0 flex  items-center justify-center gap-8">
         <div className=" h-[75vh] bg-red-700 w-[75vh] rounded-full "></div>
