@@ -1,6 +1,6 @@
 export const Projects = () => {
   return (
-    <div className="text-white h-80 bg-white w-1/4 rounded-md ">
+    <div className="text-white h-80 bg-white w-[300px] rounded-md ">
       <div className="h-3/5 p-2">
         <img
           src="../assets/project/Stylized Portrait with Bold Colors.jpeg"

@@ -28,15 +28,20 @@ export const Home = () => {
       <section id="skills">
         <Skills />
       </section>
-      <section id="project" className="h-fit bg-black m-16 text-white p-4">
-        <b className="text-3xl"> Projects:</b>
-        <p>The projects that are live and working</p>
-        <div className=" rounded p-4 flex gap-8 flex-wrap ">
+      <section
+        id="project"
+        className="h-fit  m-16 flex flex-col justify-center items-center p-4 "
+      >
+        <p>Tke a look at my projects </p>
+        <b className="text-[50px] font-bold"> Projects:</b>
+        <div className=" rounded p-4 flex gap-8 flex-wrap justify-center">
+          <Projects />
+          <Projects />
           <Projects />
           <Projects />
         </div>
       </section>
-      <section id="contact">
+      <section id="contact" className="h-[400px]">
         <Contact />
       </section>
     </div>

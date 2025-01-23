@@ -1,6 +1,6 @@
 export const Skills = () => {
   return (
-    <div className="ml-20 mr-20 flex flex-col gap-4 bg-black text-white h-fit p-4 rounded-md justify-center items-center">
+    <div className="ml-20 mr-20 flex flex-col gap-4  h-fit p-4 rounded-md justify-center items-center">
       <b className="text-3xl">Skills !!</b>
       <p>Regarding he skills or knowlwdge i posses</p>
       <div className="flex gap-8">
