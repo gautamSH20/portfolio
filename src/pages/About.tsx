@@ -8,7 +8,7 @@ export const About = () => {
 
       <div className="flex flex-col md:flex-row w-full items-center gap-4 md:gap-10 mt-6">
         {/* Image Container */}
-        <div className="bg-[url(./assets/Me.jpg)] bg-center bg-cover bg-no-repeat h-[40vh] w-[20vw] md:h-[80vh] md:w-1/3 rounded-xl"></div>
+        <div className="bg-[url(./assets/Me.jpg)] bg-start bg-cover bg-no-repeat h-[30vh] w-[30vw] md:h-[80vh] md:w-1/3 rounded-xl"></div>
 
         {/* Content Container */}
         <div className="w-full md:w-2/3 flex flex-col items-center">
@@ -22,7 +22,7 @@ export const About = () => {
           </section>
 
           {/* Description */}
-          <section className="mt-6 text-sm md:text-md text-gray-600 text-center px-4 md:px-0">
+          <section className="mt-6 text-xl md:text-md text-gray-600 text-center px-4 md:px-0">
             Aspiring JavaScript Developer with a passion for front-end and
             full-stack web development. Proficient in React.js and Node.js,
             seeking an internship to apply technical skills in developing

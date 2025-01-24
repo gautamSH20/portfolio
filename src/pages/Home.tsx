@@ -21,7 +21,7 @@ export const Home = () => {
             Web Developer
           </p>
           <span className="text-xl flex gap-4 md:gap-8 mt-4 flex-wrap justify-center">
-            <button className="bg-black text-white p-2 rounded-xl w-32">
+            <button className="border-2 text-black p-2 rounded-xl w-32 hover:bg-black hover:text-white ease-in duration-300">
               GitHub
             </button>
             <button className="bg-black text-white p-2 rounded-xl w-32">
@@ -47,8 +47,6 @@ export const Home = () => {
         <p>Tke a look at my projects </p>
         <b className="text-[50px] font-bold"> Projects:</b>
         <div className=" rounded p-4 flex gap-8 flex-wrap justify-center">
-          <Projects />
-          <Projects />
           <Projects />
           <Projects />
         </div>
