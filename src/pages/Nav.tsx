@@ -14,7 +14,7 @@ export const Nav = (prod: nacConfig) => {
     setIsMenuOpen((c) => !c);
   };
   return (
-    <div className="flex justify-between h-[12vh] pl-4 pr-4 ml-14 mr-14 rounded-md shadow-md items-center ">
+    <div className="flex justify-between h-[12vh] pl-4 pr-4 ml-14 mr-14 rounded-md shadow-md items-center dark:text-blue-400 text-black bg-white dark:bg-slate-700">
       <div className="text-2xl ">Gautam Sharma</div>
       <div className="hidden md:flex">
         <Link
@@ -55,15 +55,15 @@ export const Nav = (prod: nacConfig) => {
       </div>
       {/* Mobile view  */}
       <button
-        className="md:hidden p-2 focus:outline-none "
+        className="md:hidden p-2 focus:outline-hidden "
         onClick={toggleMenu}
       >
         {isMenuOpen ? "" : <MenuIcon />}
       </button>
       {isMenuOpen && (
-        <div className="absolute top-0 right-12 bg-white shadow-lg rounded-md p-4 md:hidden z-50 ease-in duration-300">
+        <div className="absolute top-0 right-12 bg-white dark:bg-gray-800 dark:shadow-blue-200 shadow-lg rounded-md p-4 md:hidden z-50 ease-in duration-300">
           <button
-            className="md:hidden p-2 focus:outline-none absolute right-0"
+            className="md:hidden p-2 focus:outline-hidden absolute right-0"
             onClick={toggleMenu}
           >
             {isMenuOpen ? <CrossIcon /> : ""}

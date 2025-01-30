@@ -1,10 +1,10 @@
 export const Skills = () => {
   return (
-    <div className="ml-20 mr-20 flex flex-col gap-4  h-fit p-4 rounded-md  items-center">
+    <div className=" flex flex-col gap-4    p-4 rounded-md  items-center bg-white dark:bg-[#1c2029]">
       <b className="text-3xl">Skills !!</b>
       <p>Regarding he skills or knowlwdge i posses</p>
       <div className="flex gap-8 flex-wrap justify-center">
-        <div className="group shadow-md w-[344px] h-fit p-4 flex flex-wrap relative items-center">
+        <div className="group shadow-md w-[344px]  p-4 flex flex-wrap relative items-center">
           {/* Individual blocks */}
           <div className="w-20 h-20 bg-[url(./assets/frontend/logo-javascript.png)] m-3 opacity-100 group-hover:opacity-20 transition-opacity duration-300"></div>
           <div className="w-20 h-20 bg-[url(./assets/frontend/html.png)] opacity-100 group-hover:opacity-20 transition-opacity duration-300"></div>
