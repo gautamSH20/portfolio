@@ -47,7 +47,7 @@ export const Skills = () => {
           <div className="w-20 h-20 bg-[url(./assets/more/c-1.png)] m-3 opacity-100 group-hover:opacity-20 transition-opacity duration-300"></div>
           <div className="w-20 h-20 bg-[url(./assets/more/c.png)] m-3 opacity-100 group-hover:opacity-20 transition-opacity duration-300"></div>
           <div className="w-20 h-20 bg-[url(./assets/more/java-14.png)] m-3 opacity-100 group-hover:opacity-20 transition-opacity duration-300"></div>
-          <div className="w-20 h-20 bg-blue-800 m-3 opacity-100 group-hover:opacity-20 transition-opacity duration-300"></div>
+          <div className="w-20 h-20 bg-[url(./assets/more/python-4.png)] m-3 opacity-100 group-hover:opacity-20 transition-opacity duration-300"></div>
           {/* Word appearing on hover */}
           <div className="absolute right-4 bottom-4 transform -translate-y-1/2 dark:text-white text-lg font-semibold text-black opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             Also Know basics of
