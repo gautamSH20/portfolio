@@ -70,7 +70,7 @@ export const Home = () => {
           className="ml-0 mr-0 md:ml-10 md:mr-10  mt-20  flex flex-col justify-center items-center p-4 bg-white dark:bg-[#1c2029]"
         >
           <p className="dark:text-violet-300 text-black">
-            Tke a look at my projects{" "}
+            Take a look at my projects{" "}
           </p>
           <b className="text-[50px] font-bold text-black dark:text-blue-500">
             {" "}
