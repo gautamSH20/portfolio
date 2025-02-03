@@ -16,6 +16,7 @@ export const Home = () => {
       ([entry]) => {
         if (entry) {
           setIsvisible((e) => !e);
+          console.log(isvisble);
         }
       },
       { threshold: 0.3 }
