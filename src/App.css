@@ -18,3 +18,17 @@
   }
 }
 @custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --animate-pro-top: appear-pro-top 1s ease-in-out;
+  @keyframes appear-pro-top {
+    from {
+      transform: translatey(-30%);
+      opacity: 0;
+    }
+    to {
+      transform: translatey(0);
+      opacity: 1;
+    }
+  }
+}
