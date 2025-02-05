@@ -74,7 +74,7 @@ export const Home = () => {
                 </button>
               </a>
               <a
-                href="/Resume/gautam-resume1.pdf"
+                href="/Resume/gautam-resume 1.pdf"
                 target="_blank"
                 className="bg-black dark:border-2 dark:border-white text-white p-2 rounded-xl w-32 dark:hover:shadow-white hover:shadow-md dark:hover:w-34 ease-in duration-300 inline-block text-center"
                 //download="Gautam_Resume.pdf" // Optional: forces download
@@ -123,6 +123,13 @@ export const Home = () => {
               title="Youtube-Mp3"
               gitLink="https://github.com/gautamSH20/ytmp3"
               demoLink="https://in-ytmp3.onrender.com"
+            />
+            <Projects
+              imgLink="bg-[url(./assets/P3.jpg)]"
+              title="Video call"
+              desrp="you staright go to video call by adding random url at the end of the link"
+              gitLink="https://github.com/gautamSH20/zoom-project"
+              demoLink="https://in-vedio1.onrender.com/"
             />
           </div>
         </section>
