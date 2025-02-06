@@ -8,7 +8,7 @@ interface proIN {
 
 export const Projects = (prods: proIN) => {
   return (
-    <div className="text-white h-96 bg-gray-300 dark:shadow-purple-800 shadow shadow-md hover:shadow-lg  shadow-black hover:w-[52vh] hover:h-98  w-[40vh] md:w-[50vh] rounded-md  p-4 ease-in duration-300">
+    <div className="text-white h-100 md:h-96 bg-gray-300 dark:shadow-purple-800 shadow shadow-md hover:shadow-lg  shadow-black hover:w-[52vh] hover:h-98  w-[40vh] md:w-[50vh] rounded-md  p-4 ease-in duration-300">
       <div
         className={`h-3/5 p-2 bg-no-repeat bg-cover bg-center ${
           prods.imgLink ? prods.imgLink : "bg-black"
@@ -20,7 +20,7 @@ export const Projects = (prods: proIN) => {
           {prods.desrp ? prods.desrp : null}
         </p>
       </div>
-      <div className="flex justify-center gap-4 mt-4">
+      <div className="flex justify-center gap-4 ">
         <a href={`${prods.gitLink}`} target="_blank">
           <button className="border-2 border-black text-black p-2 rounded-md hover:bg-black hover:text-white ease-in duration-300">
             github
