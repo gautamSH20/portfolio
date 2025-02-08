@@ -10,12 +10,12 @@ export const About = () => {
         ABOUT ME !!!!
       </b>
 
-      <div className="flex flex-wrap md:flex-nowrap sm w-full justify-center items-center gap-4 md:gap-6 mt-6">
+      <div className="flex flex-wrap lg:flex-nowrap sm w-full justify-center items-center gap-4 md:gap-6 mt-6">
         {/* Image Container */}
         <div className="bg-[url(./assets/My2.png)] dark:bg-gray-300  bg-center bg-cover bg-no-repeat sm:h-[40vh] sm:w-[50vh]  h-[40vh] border-2 border-black w-[50vh] md:h-[80vh] md:w-[90vh] rounded-xl"></div>
 
         {/* Content Container */}
-        <div className="w-full md:w-2/3 flex flex-col items-center">
+        <div className="w-full  md:w-2/3 flex flex-col items-center">
           {/* Education Card */}
           <section className="mt-2  w-2/3 max-w-[250px] h-[150px] bg-white rounded-xl shadow-md flex flex-col justify-center items-center text-center border-black border-2 text-base text-xl md:text-xl p-2">
             <div>

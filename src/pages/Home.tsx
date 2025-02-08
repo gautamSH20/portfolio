@@ -56,7 +56,7 @@ export const Home = () => {
           {/* Content Container */}
           <div
             ref={sectionRef}
-            className=" w-full shadow  bg-white dark:bg-[#1c2029] dark:shadow-sm dark:shadow-white  md:w-1/3 flex rounded-md dark:text-white  flex-col justify-center items-center p-3 text-center border-2 border-black h-auto md:h-[75vh] mt-8 md:mt-0"
+            className=" w-full shadow  bg-white dark:bg-[#1c2029] dark:shadow-sm dark:shadow-white  md:w-1/3 flex rounded-md dark:text-white  flex-col justify-center items-center p-3 text-center border-2 border-black h-auto lg:h-[75vh] mt-8 md:mt-0"
           >
             <p className="  opacity-60 text-xl text-black dark:text-white">
               Hi! I am
@@ -114,7 +114,7 @@ export const Home = () => {
             <Projects
               imgLink="bg-[url(./assets/P1.png)]"
               title="SECOND-BRAIN"
-              desrp="not responsive urname-gaautam1234 pass-admin1234"
+              desrp=" urname-gaautam1234 pass-admin1234"
               gitLink="https://github.com/gautamSH20/brain-app-tsc"
               demoLink="https://in-brain.onrender.com"
             />
