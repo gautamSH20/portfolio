@@ -74,7 +74,7 @@ export const Home = () => {
                 </button>
               </a>
               <a
-                href="/Resume/gautam-resume 1.pdf"
+                href="/Resume/Gautam.pdf"
                 target="_blank"
                 className="bg-black dark:border-2 dark:border-white text-white p-2 rounded-xl w-32 dark:hover:shadow-white hover:shadow-md dark:hover:w-34 ease-in duration-300 inline-block text-center"
                 //download="Gautam_Resume.pdf" // Optional: forces download
